@@ -1,17 +1,25 @@
 {
-  "name": "webpackCommonsChunkPluginDemo",
+  "name": "rwr",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack",
+    "start11": "webpack --config ./webpack.config.1-1.js",
+    "start12": "webpack --config ./webpack.config.1-2.js",
+    "start21": "webpack --config ./webpack.config.2-1.js",
+    "start22": "webpack --config ./webpack.config.2-2.js",
+    "start23": "webpack --config ./webpack.config.2-3.js",
+    "start24": "webpack --config ./webpack.config.2-4.js"
   },
-  "author": "",
-  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "webpack": "3",
+    "webpack-cli": "^3.3.12"
+  },
   "dependencies": {
-    "@babel/core": "^7.2.2",
-    "babel-loader": "^8.0.4",
-    "jquery": "^3.3.1",
-    "webpack": "^2.7.0"
+    "jquery": "^3.5.1"
   }
 }
