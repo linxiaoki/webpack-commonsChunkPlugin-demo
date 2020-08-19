@@ -6,3 +6,5 @@ forked by [evenjxr/Chunkdemo](https://github.com/evenjxr/webpack-commonsChunkPlu
 主要是从webpack2到webpack3的升级。
 
 [总结===
+
+ps: webpack4 已经取消 CommonsChunkPlugin，那么如何在webpack4下进行分包=>可以参考[这篇文章](https://github.com/yesvods/Blog/issues/15)
